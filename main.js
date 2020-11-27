@@ -6,7 +6,7 @@ const result = document.getElementById('result');
 // Random Function
 
 function random(min,max){
-    let r = Math.round(Math.random() * (max - min));
+    let r = Math.round(Math.random() * (max - min + 1) + min);
     return r;
 }
 // Event listener in Button
